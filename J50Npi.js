@@ -19,6 +19,7 @@ var J50Npi = {
       newScript.src = src;
 
       if(this.currentScript) head.removeChild(currentScript);
+      this.currentScript = newScript
       head.appendChild(newScript); 
     },
     success: null
